@@ -1,0 +1,358 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+	height: 150vh;
+	width: 100%;
+  background-image: url("C:\Users\DELL\Desktop\RW - TASK'S\WEB\web6\img\bg.png");
+	border: 1px solid black;
+  background-size: cover;
+}
+.subheader{
+	height: 130px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	display: flex;
+	justify-content: space-evenly;
+}
+.logo{
+	height: 130px;
+	flex-basis: 30%;
+	/*border: 1px solid black;*/
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#hh1{
+	font-size: 50px;
+	font-weight: bold;
+}
+nav{
+	height: 130px;
+	flex-basis: 50%;
+	/*border: 1px solid black;*/
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+nav a{
+	text-decoration: none;
+	color: #000;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	transition: 0.5s;
+}
+nav a:hover{
+	color: #CE2AFA;
+}
+.button{
+	height: 130px;
+	flex-basis: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*border: 1px solid black;*/
+}
+#btn{
+	height: 50px;
+	width: 60%;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	border-radius: 50px 50px 50px 50px;
+	background-color: #CE2AFA;
+	border: 1px solid #CE2AFA;
+	color: #fff;
+	font-size: 20px;
+	transition: 0.5s;
+}
+#btn:hover{
+	border: 1px solid #000;
+	background-color: #000;
+}
+.text{
+	height: 500px;
+	width: 100%;
+	/* border: 1px solid black; */
+	float: left;
+	margin-top: 3%;
+}
+#p{
+	padding-top: 5%;
+  font-size: 20px;
+	margin-left: 8%;
+	font-weight: bold;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#h5{
+	padding-top: 2%;
+	margin-left: 8%;
+	font-size: 30px;
+	font-weight: bold;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#btn2{
+	height: 50px;
+	width: 15%;
+	float: left;
+	margin-top: 3%;
+	margin-left: 8%;
+	background-color: #CE2AFA;
+	color: #fff;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	border-radius: 50px 50px 50px 50px;
+	font-size: 22px;
+	border: 1px solid #CE2AFA;
+	transition: 0.5s;
+}
+#btn2:hover{
+	border: 1px solid #000;
+	background-color: #000;
+}
+.services{
+	height: 800px;
+	width: 100%;
+	/*border: 1px solid black;*/
+}
+.ser1{
+	height: 400px;
+	width: 100%;
+	/*border: 1px solid black;*/
+}
+.ser2{
+	height: 400px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.ser3{
+	height: 350px;
+	flex-basis: 30%;
+	border: 2px solid #CE2AFA;
+	transition: 0.5s;
+}
+.ser3 i{
+	margin-left: 40%;
+	font-size: 90px;
+}
+.ser3:hover{
+	transform: scale(0.9);
+	background-color: #CE2AFA;
+	color: #ffffff;
+	box-shadow: 10px 10px 45px black;
+}
+#sh4{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+	font-weight: 900;
+	text-align: center;
+	padding-top: 5%;
+	color: #CE2AFA;
+}
+#sh1{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 5%;
+	font-weight: bold;
+}
+#sp2{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 15%;
+	font-weight: bold;
+}
+#sp{
+  font-size: 50px;
+	text-align: center;
+	font-weight: bold;
+  	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin-top: 3%;
+}
+.icon{
+	height: 400px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	display: flex;
+	background-color: #001775;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.ico{
+	height: 200px;
+	flex-basis: 20%;
+	/*border: 5px solid green;*/
+}
+.counter{
+	text-align: center;
+	font-size: 100px;
+	color: #ffffff;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ico h5{
+	font-weight: bold;
+	text-align: center;
+	color: #ffffff;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.amnam{
+	height: 200px;
+	width: 5px;
+	border: 1px solid #ffffff;
+	border-radius: 50px 50px 50px 50px;
+	background-color: #ffffff;
+}
+.about{
+	height: 120vh;
+	width: 100%;
+	/*border: 1px solid black;*/
+}
+.abt1{
+	height: 120vh;
+	width: 50%;
+	float: left;
+	/*border: 2px solid green;*/
+}
+.subabt1{
+	height: 30vh;
+	width: 100%;
+	/*border: 1px solid black;*/
+}
+.subabt2{
+	height: 90vh;
+	width: 100%;
+	/*border: 3px solid chocolate;*/
+}
+.abt2{
+	height: 120vh;
+	width: 50%;
+	float: right;
+	/*border: 2px solid green;*/
+	background-image: url("C:\Users\DELL\Desktop\RW - TASK'S\WEB\web6\img\bg2.png");
+	background-attachment: fixed;
+}
+#ah4{
+	font-size: 30px;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: 900;
+	margin-left: 10%;
+	padding-top: 5%;
+	font-weight: bold;
+	color: #CE2AFA;
+}
+#ap{
+	font-size: 40px;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: bold;
+	margin-left: 10%;
+}
+.subabt2 #h61{
+	font-size: 22px;
+	margin-top: 5%;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.subabt2 h6{
+	font-size: 22px;
+	margin-left: 10%;
+}
+.company{
+	height: 318px;
+	width: 100%;
+	border: 1px solid black;
+	background-image: url("C:\Users\DELL\Desktop\RW - TASK'S\WEB\web6\img\company.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.footer{
+	height: 500px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	background-image: url("C:\Users\DELL\Desktop\RW - TASK'S\WEB\web6\img\fbg.png");
+	background-attachment: fixed;
+	background-size: cover;
+	/*background-position: center;*/
+	display: flex;
+}
+.foot{
+	height: 500px;
+	flex-basis: 50%;
+	/*border: 1px solid black;*/
+}
+#fh4{
+	font-weight: 900;
+	margin-left: 10%;
+	padding-top: 20%;
+	font-weight: bold;
+	color: #CE2AFA;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	font-family: 'Kanit', sans-serif;
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+}
+#fp{
+	margin-left: 10%;
+}
+.footer h6{
+	margin-left: 10%;
+	font-size: 25px;
+	font-weight: bold;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	/*font-family: 'Kanit', sans-serif;*/
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	font-family: 'Ysabeau SC', sans-serif;
+}
+#i1{
+	margin-left: 10%;
+}
+#i2{
+	margin-left: 2%;
+}
+#i3{
+	margin-left: 2%;
+}
+#input{
+	height: 60px;
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 4%;
+	padding-left: 2%;
+	border: 1px solid black;
+}
+#input:hover{
+	border: 2px solid black;
+}
+#textarea{
+	height: 120px;
+	width: 90%;
+	margin-top: 4%;
+	margin-left: 5%;
+	padding-left: 2%;
+	border: 1px solid black;
+}
+#textarea:hover{
+	border: 2px solid black;
+}
+#btn3{
+	height: 60px;
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 4%;
+	color: #ffffff;
+	font-size: 20px;
+	background-color: #CE2AFA;
+	border-radius: 10px 10px 10px 10px;
+	border: 1px solid #CE2AFA;
+	transition: 0.5s;
+}
+#btn3:hover{
+	border: 1px solid #000;
+	background-color: #000;
+}
