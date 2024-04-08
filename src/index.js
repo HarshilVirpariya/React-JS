@@ -3,26 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Header from './Header'
-import Section from './Section';
-import Info from './Info';
-import Academic from './Academic';
-import Resource from './Resource';
-import Textarea from './Textarea';
+import Header from './Header';
+import Find from './Find';
+import Service from './Service';
+import About from './About';
 import Footer from './Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    {/* <App /> */}
-    <Header />
-    <Section />
-    <Info />
-    <Academic />
-    <Resource />
-    <Textarea />
-    <Footer />
-  </React.StrictMode>
+  <>
+    <Header/>
+    <Find/>
+    <Service/>
+    <About/>
+    <Footer/>
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function
