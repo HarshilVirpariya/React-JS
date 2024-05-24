@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  height: 100vh;
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.iphone{
+  height: 540px;
+  width: 22%;
+  border-radius: 40px;
+  border: 4px solid black;
+  background-image: url("C:\Users\DELL\Desktop\RW - TASK'S\REACT JS\git\React-JS\project-7\src\bg2.gif");
+  background-position: center;
+  background-size: cover;
+}
+.notch{
+  height: 60px;
+  width: 100%;
+  border-radius: 35px 35px 0px 0px;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.cam{
+  height: 27px;
+  width: 33%;
+  margin-left: 3%;
+  border: 2px solid black;
+  border-radius: 100px;
+  background-color: #000;
+}
+#notch-p{
+  font-size: 23px;
+  font-weight: bold;
+  color: #fff;
+	/* font-family: "Ms Madi", cursive; */
+	/* font-family: 'Advent Pro', sans-serif; */
+	/* font-family: 'Bebas Neue', sans-serif; */
+	font-family: 'Chakra Petch', sans-serif;
+	/* font-family: 'Kanit', sans-serif; */
+/* font-family: 'Michroma', sans-serif; */
+/*	font-family: 'Tektur', cursive;*/
+	/* font-family: 'Ysabeau SC', sans-serif; */
+}
+i{
+  font-size: 20px;
+  color: #fff;
+}
+.cont{
+  height: 448px;
+  width: 100%;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+#cont-h1{
+  font-size: 40px;
+  color: #fff;
+  	/* font-family: "Ms Madi", cursive; */
+	/* font-family: 'Advent Pro', sans-serif; */
+	/* font-family: 'Bebas Neue', sans-serif; */
+	/* font-family: 'Chakra Petch', sans-serif; */
+	font-family: 'Kanit', sans-serif;
+  /* font-family: 'Michroma', sans-serif; */
+  /*	font-family: 'Tektur', cursive;*/
+    /* font-family: 'Ysabeau SC', sans-serif; */
+}
+.btn{
+  height: 100px;
+  width: 100%;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#btn-1{
+  height: 50px;
+  width: 40%;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+  background: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  	/* font-family: "Ms Madi", cursive; */
+	/* font-family: 'Advent Pro', sans-serif; */
+	/* font-family: 'Bebas Neue', sans-serif; */
+	/* font-family: 'Chakra Petch', sans-serif; */
+	font-family: 'Kanit', sans-serif;
+  /* font-family: 'Michroma', sans-serif; */
+  /*	font-family: 'Tektur', cursive;*/
+    /* font-family: 'Ysabeau SC', sans-serif; */
+    transition: 0.5s;
+}
+#btn-1:hover{
+  background-color: #000;
+  color: #fff;
+}
+.back{
+  height: 28px;
+  width: 100%;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.back-notch{
+  height: 7px;
+  width: 40%;
+  margin-top: 1%;
+  border: 2px solid #000;
+  background-color: #000;
+  border-radius: 100px;
+}
+.power{
+  height: 70px;
+  width: 5px;
+  border-radius: 100px;
+  background-color: #000;
+  border: 2px solid black;
+  position: absolute;
+  top: 147px;
+  right: 497px;
+}
+.alert{
+  height: 30px;
+  width: 5px;
+  border-radius: 100px;
+  position: absolute;
+  background-color: #000;
+  border: 2px solid black;
+  top: 107px;
+  right: 778px;
+}
+.v-up{
+  height: 40px;
+  width: 5px;
+  border-radius: 100px;
+  background-color: #000;
+  border: 2px solid black;
+  position: absolute;
+  top: 160px;
+  right: 778px;
+}
+.v-down{
+  height: 40px;
+  width: 5px;
+  border-radius: 100px;
+  background-color: #000;
+  border: 2px solid black;
+  position: absolute;
+  top: 210px;
+  right: 778px; 
+}
