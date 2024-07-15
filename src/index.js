@@ -3,21 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Header from './Header';
-import Find from './Find';
-import Service from './Service';
-import About from './About';
-import Footer from './Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <>
-    <Header/>
-    <Find/>
-    <Service/>
-    <About/>
-    <Footer/>
-  </>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

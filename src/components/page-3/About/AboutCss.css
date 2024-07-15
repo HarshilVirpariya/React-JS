@@ -1,0 +1,451 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	height: 200vh;
+	width: 100%;
+	/*border: 1px solid black;*/
+}
+#bars{
+	position: absolute;
+	top: 39px;
+	right: 10px;
+	display: none;
+	font-size: 25px;
+}
+.logo{
+	height: 100px;
+	width: 30%;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*border: 1px solid black;*/
+}
+.logo img{
+	height: 100%;
+	width: 100%;
+	transition: 0.7s;
+}
+.logo img:hover{
+	transform: skewX(180deg);
+}
+.link{
+	height: 100px;
+	width: 50%;
+	float: left;
+	/*border: 1px solid black;*/
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.link a{
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	/*font-family: 'Kanit', sans-serif;*/
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	font-family: 'Ysabeau SC', sans-serif;
+	text-decoration: none;
+	transition: 0.5s;
+}
+.link a:hover{
+	color: red;
+	transform: translate(10px);
+}
+.login{
+	height: 100px;
+	width: 20%;
+	float: left;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	/*border: 1px solid black;*/
+}
+.login a{
+	text-decoration: none;
+	color: #000;
+	font-size: 25px;
+	transition: 0.5s;
+}
+.login a:hover{
+	color: red;
+	transform: skewY(180deg);
+}
+.subheader{
+	height: 400px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	background-image: url("D:\RW - TASK'S\REACT JS\git\React-JS\finalproject\src\img\about_hero.png");
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.subheader #about{
+	font-weight: bold;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	/*font-family: 'Kanit', sans-serif;*/
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	font-family: 'Ysabeau SC', sans-serif;
+}
+.about{
+	height: 600px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	float: left;
+	margin-top: 5%;
+}
+.abt{
+	height: 300px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	flex-basis: 100%;
+	/*border: 1px solid black;*/
+}
+#mission{
+	font-size: 40px;
+	color: red;
+	margin-left: 20%;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	font-family: 'Chakra Petch', sans-serif;
+	/*font-family: 'Kanit', sans-serif;*/
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+}
+.abt h6{
+	margin-left: 20%;
+	font-weight: bold;
+	font-size: 14px;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	/*font-family: 'Kanit', sans-serif;*/
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	font-family: 'Ysabeau SC', sans-serif;
+}
+.video{
+	height: 595px;
+	width: 100%;
+	float: left;
+	margin-top: 5%;
+	/*border: 1px solid black;*/
+	background-image: url("D:\RW - TASK'S\REACT JS\git\React-JS\finalproject\src\img\sectin_bg1.png");
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.video i{
+	height: 100px;
+	width: 100px;
+	color: #ffffff;
+	padding-top: 0.2%;
+	padding-left: 1.5%;
+	font-size: 60px;
+	border-radius: 50% 50% 50% 50%;
+	border: 1px solid #ffffff;
+	transition: 0.5s;
+}
+.video i:hover{
+	color: red;
+	background-color: #ffffff;
+}
+.services{
+	height: 300px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	background-color: red;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.ser{
+	height: 300px;
+	flex-basis: 30%;
+	/*border: 1px solid black;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.ser i{
+	/*margin-left: 10%;*/
+	font-size: 50px;
+	text-align: center;
+	color: #ffffff;
+}
+.ser h5{
+	/*margin-left: 10%;*/
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	font-family: 'Chakra Petch', sans-serif;
+	/*font-family: 'Kanit', sans-serif;*/
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+}
+.ser p{
+	font-weight: bold;
+	margin-top: 2%;
+	/*margin-left: 10%;*/
+	text-align: center;
+	color: #ffffff;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	/*font-family: 'Kanit', sans-serif;*/
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	font-family: 'Ysabeau SC', sans-serif;
+}
+footer{
+	height: 300px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	display: flex;
+	justify-content: space-evenly;
+}
+.foot{
+	height: 300px;
+	flex-basis: 20%;
+	/*border: 1px solid black;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.foot h6{
+	font-weight: bold;
+	font-size: 25px;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	/*font-family: 'Kanit', sans-serif;*/
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	font-family: 'Ysabeau SC', sans-serif;
+}
+.foot a{
+	text-decoration: none;
+	color: grey;
+	font-weight: bold;
+	margin-top: 5%;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	font-family: 'Kanit', sans-serif;
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+	transition: 0.5s;
+}
+.foot a:hover{
+	transform: translate(10px);
+	color: red;
+}
+.foot img{
+	height: 100%;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 768px)
+{
+	header{
+		height: auto;
+		flex-direction: column;
+	}
+	#bars{
+		display: block;
+	}
+	.logo{
+		width: 100%;
+	}
+	.link{
+		width: 100%;
+		display: none;
+	}
+	.link a{
+		line-height: 100px;
+		margin-left: 6%;
+	}
+	.login{
+		width: 100%;
+		display: none;
+	}
+	.login i{
+		line-height: 100px;
+		margin-left: 6%;
+	}
+	.subheader{
+		height: 400px;
+		flex-direction: column;
+	}
+	.subdiv{
+		float: left;
+		margin-top: 5%;
+	}
+	#hbutton{
+		margin-bottom: 4%;
+	}
+	#mission{
+		font-size: 40px;
+		color: red;
+		margin-left: 10%;
+		/*font-family: 'Bebas Neue', sans-serif;*/
+		font-family: 'Chakra Petch', sans-serif;
+		/*font-family: 'Kanit', sans-serif;*/
+		/*font-family: 'Lumanosimo', cursive;*/
+		/*font-family: 'Tektur', cursive;*/
+		/*font-family: 'Ysabeau SC', sans-serif;*/
+	}
+	.abt h6{
+		margin-left: 10%;
+		font-weight: bold;
+		font-size: 14px;
+		/*font-family: 'Bebas Neue', sans-serif;*/
+		/*font-family: 'Chakra Petch', sans-serif;*/
+		/*font-family: 'Kanit', sans-serif;*/
+		/*font-family: 'Lumanosimo', cursive;*/
+		/*font-family: 'Tektur', cursive;*/
+		font-family: 'Ysabeau SC', sans-serif;
+	}
+	.video{
+		background-image: url("D:\RW - TASK'S\REACT JS\git\React-JS\finalproject\src\img\sectin_bg1.png");
+		background-position: center;
+		background-size: cover;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+	.video i{
+		padding-top: 1%;
+		padding-left: 2.5%;
+	}
+	.services{
+		height: auto;
+		flex-direction: column;
+	}
+	.ser{
+		width: 70%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	footer{
+		height: auto;
+		flex-direction: column;
+	}
+	.foot{
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+}
+
+
+
+
+@media(max-width: 576px)
+{
+	header{
+		height: auto;
+		flex-direction: column;
+	}
+	#bars{
+		display: block;
+	}
+	.logo{
+		width: 100%;
+	}
+	.link{
+		width: 100%;
+		display: none;
+	}
+	.link a{
+		line-height: 100px;
+		margin-left: 6%;
+	}
+	.login{
+		width: 100%;
+		display: none;
+	}
+	.login i{
+		line-height: 100px;
+		margin-left: 6%;
+	}
+	.subheader{
+		height: 400px;
+		flex-direction: column;
+	}
+	.subdiv{
+		float: left;
+		margin-top: 5%;
+	}
+	#hbutton{
+		margin-bottom: 4%;
+	}
+	#mission{
+		font-size: 40px;
+		color: red;
+		margin-left: 10%;
+		/*font-family: 'Bebas Neue', sans-serif;*/
+		font-family: 'Chakra Petch', sans-serif;
+		/*font-family: 'Kanit', sans-serif;*/
+		/*font-family: 'Lumanosimo', cursive;*/
+		/*font-family: 'Tektur', cursive;*/
+		/*font-family: 'Ysabeau SC', sans-serif;*/
+	}
+	.abt h6{
+		margin-left: 10%;
+		font-weight: bold;
+		font-size: 14px;
+		/*font-family: 'Bebas Neue', sans-serif;*/
+		/*font-family: 'Chakra Petch', sans-serif;*/
+		/*font-family: 'Kanit', sans-serif;*/
+		/*font-family: 'Lumanosimo', cursive;*/
+		/*font-family: 'Tektur', cursive;*/
+		font-family: 'Ysabeau SC', sans-serif;
+	}
+	.video{
+		background-image: url("D:\RW - TASK'S\REACT JS\git\React-JS\finalproject\src\img\sectin_bg1.png");
+		background-position: center;
+		background-size: cover;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+	.video i{
+		padding-top: 1%;
+		padding-left: 3.5%;
+	}
+	.services{
+		height: auto;
+		flex-direction: column;
+	}
+	.ser{
+		width: 70%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	footer{
+		height: auto;
+		flex-direction: column;
+	}
+	.foot{
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+}

@@ -1,20 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './Header';
-import Find from './Find';
-import Service from './Service';
-import About from './About';
-import Footer from './Footer';
+import { BrowserRouter , Route , Routes } from 'react-router-dom';
+import Home from './components/page-1/Home/Home';
+import Shop from './components/page-2/Shop/Shop';
+import About from './components/page-3/About/About';
 
 function App() {
   return (
-    <>
-      <Header/>
-      <Find/>
-      <Service/>
-      <About/>
-      <Footer/>
-    </>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/Shop' element={<Shop/>}/>
+          <Route path='/About' element={<About/>}/>
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 
