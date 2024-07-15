@@ -1,0 +1,87 @@
+.registration-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .registration-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  /* label{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 5%;
+  } */
+  
+  .registration-form {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  
+  .registration-form label {
+    margin-bottom: 5px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 5%;
+  }
+  
+  .registration-form input[type="text"],
+  .registration-form input[type="password"],
+  .registration-form input[type="submit"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .registration-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    width: 30%;
+    margin-left: 35%;
+    cursor: pointer;
+    margin-top: 5%;
+  }
+  
+  .registration-form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .registered-users {
+    margin-top: 20px;
+  }
+  
+  .registered-users h2 {
+    margin-bottom: 10px;
+  }
+  
+  .registered-users ul {
+    list-style-type: none;
+    padding: 0;
+  
+  }
+  
+  #regename{
+    text-align: center;
+  }
+  
+  .registered-users li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 5px;
+  }
+  
+  h2{
+    text-align: center;
+  }

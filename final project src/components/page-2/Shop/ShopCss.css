@@ -1,0 +1,476 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	height: 200vh;
+	width: 100%;
+	/*border: 1px solid black;*/
+}
+#bars{
+	position: absolute;
+	top: 39px;
+	right: 10px;
+	display: none;
+	font-size: 25px;
+}
+.logo{
+	height: 100px;
+	width: 30%;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*border: 1px solid black;*/
+}
+.logo img{
+	height: 100%;
+	width: 100%;
+	transition: 0.7s;
+}
+.logo img:hover{
+	transform: skewX(180deg);
+}
+.link{
+	height: 100px;
+	width: 50%;
+	float: left;
+	/*border: 1px solid black;*/
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.link a{
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	/*font-family: 'Kanit', sans-serif;*/
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	font-family: 'Ysabeau SC', sans-serif;
+	text-decoration: none;
+	transition: 0.5s;
+}
+.link a:hover{
+	color: red;
+	transform: translate(10px);
+}
+.login{
+	height: 100px;
+	width: 20%;
+	float: left;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	/*border: 1px solid black;*/
+}
+.login a{
+	text-decoration: none;
+	color: #000;
+	font-size: 25px;
+	transition: 0.5s;
+}
+.login a:hover{
+	color: red;
+	transform: skewY(180deg);
+}
+.subheader{
+	height: 400px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	background-image: url("D:\RW - TASK'S\REACT JS\git\React-JS\finalproject\src\img\about_hero.png");
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.subheader #wat{
+	font-weight: bold;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	/*font-family: 'Kanit', sans-serif;*/
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	font-family: 'Ysabeau SC', sans-serif;
+}
+.popular{
+	height: 210vh;
+	width: 100%;
+	/*border: 1px solid black;*/
+}
+.pop1{
+	height: 200px;
+	width: 100%;
+	/*border: 1px solid black;*/
+}
+#popular{
+	font-weight: bold;
+	margin-left: 7%;
+	padding-top: 2%;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	font-family: 'Kanit', sans-serif;
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+}
+#ph6{
+	font-weight: bold;
+	margin-left: 7%;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	/*font-family: 'Kanit', sans-serif;*/
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	font-family: 'Ysabeau SC', sans-serif;
+}
+.pop2{
+	height: 175vh;
+	width: 100%;
+	/*border: 2px solid black;*/
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.pop3{
+	height: 450px;
+	flex-basis: 30%;
+	/*border: 1px solid black;*/
+}
+.pop4{
+	height: 400px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	position: relative;
+	overflow: hidden;
+}
+#cart{
+	height: 50px;
+	width: 80%;
+	font-weight: bold;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	font-family: 'Kanit', sans-serif;
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+	margin-left: 10%;
+	border: none;
+	position: absolute;
+	background-color: red;
+	color: #ffffff;
+	bottom: 1px;
+	left: 0;
+	opacity: 0;
+	transition: 0.8s;
+}
+#cart::before{
+	content:"";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 0%;
+	transition: 0.5s;
+}
+#cart:hover::before{
+	border: none;
+	background-color: #000;
+	width: 100%;
+	z-index: -1;
+}
+.pop4:hover #cart{
+	opacity: 1;
+	transform: scale(0.6);
+}
+.pop4 img{
+	height: 100%;
+	width: 100%;
+	transition: 0.5s;
+}
+.pop4:hover img{
+	transform: scale(1.1);
+}
+#more{
+	height: 50px;
+	width: 30%;
+	border: none;
+	float: left;
+	color: #ffffff;
+	background-color: red;
+	position: relative;
+	z-index: 1;
+}
+#more::before{
+	content:"";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 0%;
+	transition: 0.3s;
+}
+#more:hover::before{
+	border: none;
+	background-color: #4A4A4B;
+	width: 100%;
+	z-index: -1;
+}
+.services{
+	height: 300px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	background-color: red;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.ser{
+	height: 300px;
+	flex-basis: 30%;
+	/*border: 1px solid black;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.ser i{
+	/*margin-left: 10%;*/
+	font-size: 50px;
+	text-align: center;
+	color: #ffffff;
+}
+.ser h5{
+	/*margin-left: 10%;*/
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	font-family: 'Chakra Petch', sans-serif;
+	/*font-family: 'Kanit', sans-serif;*/
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+}
+.ser p{
+	font-weight: bold;
+	margin-top: 2%;
+	/*margin-left: 10%;*/
+	text-align: center;
+	color: #ffffff;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	/*font-family: 'Kanit', sans-serif;*/
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	font-family: 'Ysabeau SC', sans-serif;
+}
+footer{
+	height: 300px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	display: flex;
+	justify-content: space-evenly;
+}
+.foot{
+	height: 300px;
+	flex-basis: 20%;
+	/*border: 1px solid black;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.foot h6{
+	font-weight: bold;
+	font-size: 25px;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	/*font-family: 'Kanit', sans-serif;*/
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	font-family: 'Ysabeau SC', sans-serif;
+}
+.foot a{
+	text-decoration: none;
+	color: grey;
+	font-weight: bold;
+	margin-top: 5%;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	font-family: 'Kanit', sans-serif;
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+	transition: 0.5s;
+}
+.foot a:hover{
+	transform: translate(10px);
+	color: red;
+}
+.foot img{
+	height: 100%;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 768px)
+{
+	header{
+		height: auto;
+		flex-direction: column;
+	}
+	#bars{
+		display: block;
+	}
+	.logo{
+		width: 100%;
+	}
+	.link{
+		width: 100%;
+		display: none;
+	}
+	.link a{
+		line-height: 100px;
+		margin-left: 6%;
+	}
+	.login{
+		width: 100%;
+		display: none;
+	}
+	.login i{
+		line-height: 100px;
+		margin-left: 6%;
+	}
+	.subheader{
+		height: 400px;
+		flex-direction: column;
+	}
+	.subdiv{
+		float: left;
+		margin-top: 5%;
+	}
+	#hbutton{
+		margin-bottom: 4%;
+	}
+	.popular{
+		height: auto;
+		float: left;
+		margin-top: 5%;
+	}
+	.pop2{
+		height: auto;
+		flex-direction: column;
+	}
+	.pop3{
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	#more{
+		margin-bottom: 5%;
+	}
+	.services{
+		height: auto;
+		flex-direction: column;
+	}
+	.ser{
+		width: 70%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	footer{
+		height: auto;
+		flex-direction: column;
+	}
+	.foot{
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+}
+
+
+
+@media(max-width: 576px)
+{
+	header{
+		height: auto;
+		flex-direction: column;
+	}
+	#bars{
+		display: block;
+	}
+	.logo{
+		width: 100%;
+	}
+	.link{
+		width: 100%;
+		display: none;
+	}
+	.link a{
+		line-height: 100px;
+		margin-left: 6%;
+	}
+	.login{
+		width: 100%;
+		display: none;
+	}
+	.login i{
+		line-height: 100px;
+		margin-left: 6%;
+	}
+	.subheader{
+		height: 400px;
+		flex-direction: column;
+	}
+	.subdiv{
+		float: left;
+		margin-top: 5%;
+	}
+	#hbutton{
+		margin-bottom: 4%;
+	}
+	.popular{
+		height: auto;
+		float: left;
+		margin-top: 5%;
+	}
+	.pop2{
+		height: auto;
+		flex-direction: column;
+	}
+	.pop3{
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	#more{
+		margin-bottom: 5%;
+	}
+	.services{
+		height: auto;
+		flex-direction: column;
+	}
+	.ser{
+		width: 70%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	footer{
+		height: auto;
+		flex-direction: column;
+	}
+	.foot{
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+}
