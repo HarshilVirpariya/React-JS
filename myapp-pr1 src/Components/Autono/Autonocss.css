@@ -1,0 +1,20 @@
+.autono{
+    height: 120vh;
+    width: 100%;
+/*    border: 2px solid black;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("D:\RW - TASK'S\REACT JS\git\React-JS\myapp-pr1\src\Assets\machine.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+/*    background-position: center;*/
+}
+.auto-1{
+    height: 600px;
+    width: 35%;
+    border-radius: 30px;
+/*    border: 2px solid black;*/
+    margin-left: 5%;
+    background-color: #000;
+}

@@ -1,0 +1,110 @@
+.driving{
+    height: 600px;
+    width: 100%;
+/*    border: 2px solid black;*/
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.driving-1{
+    height: 600px;
+    width: 50%;
+/*    border: 2px solid black;*/
+}
+#driving-h1{
+    font-size: 60px;
+/*  font-family: 'Advent Pro', sans-serif; */
+/*  font-family: 'Bebas Neue', sans-serif; */
+/*  font-family: 'Chakra Petch', sans-serif; */
+/*  font-family: 'Kanit', sans-serif;*/
+/*  font-family: 'Michroma', sans-serif; */
+/*  font-family: 'Tektur', cursive; */
+    font-family: 'Ysabeau SC', sans-serif;
+    padding-top: 10%;
+    padding-left: 15%;
+}
+#driving-h5{
+    font-size: 23px;
+/*  font-family: 'Advent Pro', sans-serif; */
+/*  font-family: 'Bebas Neue', sans-serif; */
+/*  font-family: 'Chakra Petch', sans-serif; */
+/*  font-family: 'Kanit', sans-serif;*/
+/*  font-family: 'Michroma', sans-serif; */
+/*  font-family: 'Tektur', cursive; */
+    font-family: 'Ysabeau SC', sans-serif;
+    padding-left: 16%;   
+}
+#btn-2{
+    height: 50px;
+    width: 25%;
+    border: 2px solid black;
+    background: #fff;
+    color: #000;
+    font-size: 15px;
+    margin-left: 16%;
+    border-radius: 15px;
+    letter-spacing: 3px;
+    font-weight: bold;
+/*  font-family: 'Advent Pro', sans-serif; */
+/*  font-family: 'Bebas Neue', sans-serif; */
+/*  font-family: 'Chakra Petch', sans-serif; */
+/*  font-family: 'Kanit', sans-serif;*/
+/*  font-family: 'Michroma', sans-serif; */
+/*  font-family: 'Tektur', cursive; */
+    font-family: 'Ysabeau SC', sans-serif;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+#btn-2:hover{
+    color: #fff;
+    opacity: 1;
+}
+#btn-2::before{
+    content:"";
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    height: 100%;
+    width: 0%;
+    border: none;
+    border-radius: 0px 12px 12px 0px;
+    background-color: #000;
+    transition: 0.5s cubic-bezier(0.5,1.6,0.4,0.7);
+    transform-origin: 0.0;
+}
+#btn-2:hover::before{
+    width: 50%;
+    border-radius: 0px 12px 12px 0px;
+    background-color: #000;
+    z-index: -1;
+}
+#btn-2::after{
+    content:"";
+    position: absolute;
+    top: 0px;
+    right: 50%;
+    height: 100%;
+    width: 0%;
+    border: none;
+    border-radius: 12px 0px 0px 12px;
+    background-color: #000;
+    transition: 0.5s cubic-bezier(0.5,1.6,0.4,0.7);
+    transform-origin: 0.0;
+}
+#btn-2:hover::after{
+    width: 50%;
+    border-radius: 12px 0px 0px 12px;
+    background-color: #000;
+    z-index: -1;
+}
+.driving-2{
+    height: 600px;
+    width: 50%;
+/*    border: 2px solid black;*/
+    background-image: url("D:\RW - TASK'S\REACT JS\git\React-JS\myapp-pr1\src\Assets\car2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

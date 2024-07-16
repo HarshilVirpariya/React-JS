@@ -1,0 +1,90 @@
+.number{
+    height: 600px;
+    width: 100%;
+    background-color: #000;
+/*    border: 2px solid black;*/
+/*    margin-top: 5%;*/
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.n-1{
+    height: 600px;
+    width: 50%;
+/*    border: 2px solid black;*/
+background-color: #000;
+}
+.n-1 img{
+    height: 100%;
+    width: 100%;
+}
+.n-2{
+    height: 600px;
+    width: 50%;
+/*    border: 2px solid black;*/
+}
+.auto-num{
+    height: 100px;
+    width: 100%;
+/*    border: 2px solid black;*/
+    display: flex;    
+    justify-content: space-evenly;
+    align-items: center;
+}
+#auto-num-h1{
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 3px;
+/*  font-family: 'Advent Pro', sans-serif; */
+/*  font-family: 'Bebas Neue', sans-serif; */
+/*  font-family: 'Chakra Petch', sans-serif; */
+/*  font-family: 'Kanit', sans-serif;*/
+/*  font-family: 'Michroma', sans-serif; */
+/*  font-family: 'Tektur', cursive; */
+    font-family: 'Ysabeau SC', sans-serif;
+}
+.count{
+    height: 300px;
+    width: 100%;
+    /*border: 1px solid black;*/
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sub-count{
+    height: 200px;
+    width: 300px;
+    /*border: 1px solid #fff;*/
+    border-radius: 20px 20px 20px 20px;
+    transition: 0.5s;
+}
+.counter{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 20%;
+    color: #fff;
+/*    font-weight: bold;*/
+/*  font-family: 'Advent Pro', sans-serif; */
+  font-family: 'Bebas Neue', sans-serif; 
+/*  font-family: 'Chakra Petch', sans-serif; */
+/*  font-family: 'Kanit', sans-serif;*/
+/*  font-family: 'Michroma', sans-serif; */
+/*  font-family: 'Tektur', cursive; */
+/*    font-family: 'Ysabeau SC', sans-serif;*/
+}
+#count-p{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+/*  font-family: 'Advent Pro', sans-serif; */
+/*  font-family: 'Bebas Neue', sans-serif; */
+/*  font-family: 'Chakra Petch', sans-serif; */
+/*  font-family: 'Kanit', sans-serif;*/
+/*  font-family: 'Michroma', sans-serif; */
+/*  font-family: 'Tektur', cursive; */
+    font-family: 'Ysabeau SC', sans-serif;
+}

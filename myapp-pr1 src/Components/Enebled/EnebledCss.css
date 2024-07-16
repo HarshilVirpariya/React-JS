@@ -1,0 +1,22 @@
+.enebled{
+    height: 600px;
+    width: 100%;
+/*    border: 2px solid black;*/
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ene-1{
+    height: 600px;
+    width: 50%;
+/*    border: 2px solid black;*/
+}
+.ene-2{
+    height: 600px;
+    width: 50%;
+/*    border: 2px solid black;*/
+    background-image: url("D:\RW - TASK'S\REACT JS\git\React-JS\myapp-pr1\src\Assets\car3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
