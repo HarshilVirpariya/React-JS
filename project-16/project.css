@@ -1,0 +1,878 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	height: 200vh;
+	width: 100%;
+	/*border: 1px solid black;*/
+	background-color: #01415B;
+}
+.subheader{
+	height: 130px;
+	width: 100%;
+	/*border: 1px solid white;*/
+	display: flex;
+	justify-content: space-evenly;
+}
+.logo{
+	height: 130px;
+	flex-basis: 30%;
+	/*border: 1px solid white;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo a{
+	font-size: 25px;
+	text-decoration: none;
+	color: white;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	font-family: 'Kanit', sans-serif;
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+	position: absolute;
+	left: 60px;
+}
+nav{
+	height: 130px;
+	flex-basis: 60%;
+	/*border: 1px solid white;*/
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+nav a{
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	font-family: 'Kanit', sans-serif;
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+	letter-spacing: 3px;
+	transition: 0.5s;
+}
+nav a:hover{
+	color: #AB843F;
+	transform: translateX(20px);
+}
+#button{
+	height: 40px;
+	width: 30%;
+	border: 1px solid white;
+	background: transparent;
+	font-size: 18px;
+	color: white;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	font-family: 'Kanit', sans-serif;
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+}
+#button:hover{
+	background-color: #AB843F;
+	border: 1px solid #AB843F;
+}
+#bars{
+	position: absolute;
+	top: 50px;
+	right: 30px;
+	color: white;
+	display: none;
+	font-size: 25px;
+}
+.text{
+	height: 300px;
+	width: 90%;
+	/*border: 1px solid white;*/
+	margin-top: 5%;
+	margin-left: 5%;
+	display: flex;
+	align-items: center;
+}
+.text h1{
+	font-size: 70px;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	font-family: 'Kanit', sans-serif;
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+	color: white;
+}
+.food1{
+	height: 500px;
+	width: 35%;
+	/*border: 1px solid white;*/
+	margin-top: 11%;
+	float: left;
+	margin-left: 5%;
+}
+.food1 img{
+	height: 100%;
+	width: 100%;
+}
+.food2{
+	height: 600px;
+	width: 50%;
+	/*border: 1px solid white;*/
+	float: right;
+	margin-right: 5%;
+	margin-top: 3%;
+	background-image: url(img/i2.jpg);
+	background-position: center;
+	/*background-size: cover;*/
+	background-attachment: fixed;
+}
+.section{
+	height: 200vh;
+	width: 100%;
+	border: 1px solid white;
+}
+.cook{
+	height: 600px;
+	width: 60%;
+	/*border: 1px solid black;*/
+	margin-left: 5%;
+	float: left;
+	margin-top: 10%;
+	background-image: url(img/cook.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.discription{
+	height: 600px;
+	width: 30%;
+	/*border: 1px solid black;*/
+	margin-right: 5%;
+	float: right;
+	margin-top: 10%;
+}
+.discription h1{
+	font-size: 45px;
+	padding-left: 13%;
+	padding-top: 10%;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	font-family: 'Chakra Petch', sans-serif;
+	/*font-family: 'Kanit', sans-serif;*/
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+}
+.discription p{
+	font-size: 16px;
+	padding-left: 13%;
+	margin-top: 5%;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	font-family: 'Kanit', sans-serif;
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+}
+#btn{
+	height: 50px;
+	width: 50%;
+	background: transparent;
+	border: 1px solid black;
+	margin-left: 13%;
+	margin-top: 15%;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	font-family: 'Kanit', sans-serif;
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+	font-weight: bolder;
+	transition: 0.5s;
+}
+#btn:hover{
+	background-color: #01415B;
+	color: white;
+}
+.dis{
+	height: 400px;
+	width: 90%;
+	/*border: 1px solid black;*/
+	margin-top: 60%;
+	margin-left: 5%;
+}
+.dis h1{
+	font-size: 50px;
+	padding-top: 5%;
+	padding-left: 3%;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	font-family: 'Chakra Petch', sans-serif;
+	/*font-family: 'Kanit', sans-serif;*/
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+}
+.dis p{
+	font-size: 16px;
+	margin-top: 2%;
+	padding-left: 3%;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	font-family: 'Kanit', sans-serif;
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+}
+.dis #menubtn{
+	height: 50px;
+	width: 20%;
+	margin-left: 3%;
+	margin-top: 3%;
+	border: 1px solid black;
+	background: transparent;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	font-family: 'Chakra Petch', sans-serif;
+	/*font-family: 'Kanit', sans-serif;*/
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+	transition: 0.5s;
+}
+.dis #menubtn:hover{
+	background-color: #01415B;
+	color: white;
+}
+.slider-container{
+	height: 530px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	margin-top: 5%;
+}
+.img_box img{
+  height: 450px;
+  width: 80%;
+  padding: 50px 0; 
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.deliver{
+	height: 700px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: #E59866;
+}
+.about{
+	height: 600px;
+	flex-basis: 45%;
+	/*border: 1px solid black;*/
+}
+.about h1{
+	font-size: 40px;
+	padding-left: 5%;
+	padding-top: 13%;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	font-family: 'Chakra Petch', sans-serif;
+	/*font-family: 'Kanit', sans-serif;*/
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+}
+.about p{
+	padding-left: 5%;
+	margin-top: 5%;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	font-family: 'Kanit', sans-serif;
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+}
+.about #order{
+	height: 50px;
+	width: 30%;
+	border: 1px solid black;
+	background: transparent;
+	margin-left: 5%;
+	margin-top: 5%;
+	transition: 0.5s;
+}
+.about #order:hover{
+	background-color: #01415B;
+	border: 1px solid #01415B;
+	color: #E59866;
+}
+.photo{
+	height: 600px;
+	flex-basis: 45%;
+	/*border: 1px solid black;*/
+}
+.photo img{
+	height: 100%;
+	width: 100%;
+}
+.textarea{
+	height: 600px;
+	width: 90%;
+	/*border: 1px solid black;*/
+	display: flex;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+.text1{
+	height: 600px;
+	width: 50%;
+	/*border: 1px solid black;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.subtext{
+	height: 200px;
+	flex-basis: 45%;
+	border-top: 1px solid black;
+}
+.subtext h3{
+	font-size: 17px;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	font-family: 'Kanit', sans-serif;
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+	padding-left: 5%;
+	padding-top: 5%;
+}
+.subtext p{
+	font-size: 15px;
+	padding-left: 5%;
+	margin-top: 10%;
+	font-weight: bold;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	font-family: 'Kanit', sans-serif;
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+}
+.text1 h1{
+	font-size: 40px;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	font-family: 'Chakra Petch', sans-serif;
+	/*font-family: 'Kanit', sans-serif;*/
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+}
+.icon{
+	height: 300px;
+	width: 90%;
+	margin-top: 4%;
+	margin-left: 5%;
+	/*border: 1px solid black;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.ico{
+	height: 150px;
+	width: 15%;
+	border: 2px solid #000;
+	background-color: #fee;
+	border-radius: 30px 30px 30px 30px; 
+}
+.ico i{
+	font-size: 30px;
+	margin-left: 40%;
+	float: left;
+	padding-top: 10%;
+}
+.ico .counter{
+	text-align: center;
+	margin-top: 40%;
+	font-size: 31px;
+	font-family: 'Bebas Neue', sans-serif;
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	/*font-family: 'Kanit', sans-serif;*/
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+}
+.ico h5{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 5%;
+	letter-spacing: 3px;
+	font-family: 'Bebas Neue', sans-serif;
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	/*font-family: 'Kanit', sans-serif;*/
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+}
+#a{
+	color: green;
+}
+#b{
+	color: fuchsia;
+}
+#c{
+	color: #3b5998;
+}
+#d{
+	color: #00acee;
+}
+#e{
+	color: #CD201F;
+}
+#f{
+	color: #0088cc;
+}
+.contact{
+	height: 700px;
+	width: 90%;
+	/*border: 1px solid black;*/
+	margin-left: 5%;
+	display: flex;
+	margin-top: 5%;
+}
+.con{
+	height: 700px;
+	flex-basis: 50%;
+	/*border: 1px solid black;*/
+}
+.con h1{
+	font-size: 70px;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	font-family: 'Kanit', sans-serif;
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+	padding-top: 5%;
+	padding-left: 5%;
+}
+.con #contact{
+	height: 50px;
+	width: 30%;
+	border: 1px solid black;
+	background: transparent;
+	margin-left: 5%;
+	margin-top: 5%;
+	transition: 0.5s;
+}
+.con #contact:hover{
+	background-color: #01415B;
+	border: 1px solid #01415B;
+	color: white;
+}
+.con1{
+	height: 300px;
+	width: 56%;
+	/*border: 1px solid black;*/
+	margin-top: 10%;
+	margin-left: 3%;
+	float: left;
+}
+.con1 img{
+	height: 100%;
+	width: 100%;
+}
+.con2{
+	height: 300px;
+	width: 35%;
+	/*border: 1px solid black;*/
+	float: right;
+	margin-top: 10%;
+	margin-right: 3%;
+}
+.con2 img{
+	height: 100%;
+	width: 100%;
+}
+.con3{
+	height: 300px;
+	width: 35%;
+	/*border: 1px solid black;*/
+	float: left;
+	margin-top: 3%;
+	margin-left: 3%;
+}
+.con3 img{
+	height: 100%;
+	width: 100%;
+}
+.con4{
+	height: 300px;
+	width: 56%;
+	/*border: 1px solid black;*/
+	margin-top: 3%;
+	margin-right: 3%;
+	float: right;
+}
+.con4 img{
+	height: 100%;
+	width: 100%;
+}
+footer{
+	height: 400px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	margin-top: 5%;
+	display: flex;
+}
+.foot{
+	height: 400px;
+	flex-basis: 25%;
+	/*border: 1px solid black;*/
+	display: flex;
+	background-color: #01415B;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.foot h1{
+	font-size: 50px;
+	text-align: center;
+	padding-top: -10%;
+	color: white;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	/*font-family: 'Kanit', sans-serif;*/
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	font-family: 'Ysabeau SC', sans-serif;
+	transition: 0.5s;
+}
+.foot h1:hover{
+	transform: scale(1.2);
+	color: #AB843F;
+	text-shadow: 5px 5px 5px black;
+}
+#a{
+	text-decoration: none;
+}
+#foot a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	/*font-family: 'Chakra Petch', sans-serif;*/
+	/*font-family: 'Kanit', sans-serif;*/
+	/*font-family: 'Lumanosimo', cursive;*/
+	font-family: 'Tektur', cursive;
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+	transition: 0.5s;
+}
+#foot a:hover{
+	color: #AB843F;
+	transform: translateX(20px);
+}
+.foot h3{
+	font-size: 20px;
+	color: white;
+	/*font-family: 'Bebas Neue', sans-serif;*/
+	font-family: 'Chakra Petch', sans-serif;
+	/*font-family: 'Kanit', sans-serif;*/
+	/*font-family: 'Lumanosimo', cursive;*/
+	/*font-family: 'Tektur', cursive;*/
+	/*font-family: 'Ysabeau SC', sans-serif;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 720px)
+{
+	header{
+		height: 225vh;
+	}
+	.subheader{
+		height: 200px;
+		flex-direction: column;
+	}
+	nav{	
+		display: flex;
+	}
+	nav a{
+		display: none;
+	}
+	#button{
+		display: none;
+	}
+	#bars{
+		display: block;
+		top: 25px;
+	}
+	.logo{
+		width: 50%;
+		margin-left: 25%;
+	}
+	.logo a{
+		position: absolute;
+		left: 190px;
+	}
+	.text h1{
+		font-size: 40px;
+	}
+	.section{
+		height: auto;
+	}
+	.cook{
+		height: 400px;
+		width: 90%;
+	}
+	.discription{
+		height: 300px;
+		width: 90%;
+	}
+	.discription h1{
+		font-size: 30px;
+		margin-top: -10%;
+		padding-left: 3%;
+	}
+	.discription p{
+		padding-left: 3%;
+	}
+	.discription #btn{
+		margin-top: 5%;
+		margin-left: 3%;
+	}
+	.dis{
+		height: 300px;
+		width: 90%;
+		margin-top: 170%;
+	}
+	.dis #menubtn{
+		height: ;
+		width: 40%;
+		margin-top: 5%;
+	}
+	.slider-container{
+		height: 450px;
+	}
+	.img_box img{
+		height: 250px;
+  		width: 80%;
+  		padding: 50px 0; 
+  		margin-left: 10%;
+  		margin-top: 50%;
+	}
+	.swiper-button-next{
+		position: absolute;
+		top: 3000px;
+	}
+	.swiper-button-prev{
+		position: absolute;
+		top: 3000px;
+	}
+	.deliver{
+		height: 250vh;
+		flex-wrap: wrap;
+	}
+	.about{
+		flex-basis: 90%;
+	}
+	.photo{
+		flex-basis: 90%;
+	}
+	.textarea{
+		height: auto;
+		flex-wrap: wrap;
+	}
+	.text1{
+		flex-basis: 100%;
+	}
+	.icon{
+		height: auto;
+		width: 100%;
+		margin-left: 0.5%;
+		flex-wrap: wrap;
+	}
+	.ico{
+		width: 30%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	.ico i{
+		font-size: 40px;
+	}
+	.ico h5{
+		margin-top: -2%;
+	}
+	.counter{
+		margin-top: -15%;
+	}
+	.contact{
+		height: auto;
+		flex-direction: column;
+	}
+	.con{
+		margin-top: 5%;
+		margin-bottom: 5%;
+		flex-basis: 90%;
+	}
+	footer{
+		height: 600px;
+		flex-wrap: wrap;
+	}
+	.foot{
+		flex-basis: 50%;
+	}
+}
+
+
+
+
+@media(max-width: 480px)
+{
+	header{
+		height: 225vh;
+	}
+	.subheader{
+		height: 200px;
+		flex-direction: column;
+	}
+	nav{	
+		display: flex;
+	}
+	nav a{
+		display: none;
+	}
+	#button{
+		display: none;
+	}
+	#bars{
+		display: block;
+		top: 25px;
+	}
+	.logo{
+		width: 50%;
+		margin-left: 25%;
+	}
+	.logo a{
+		position: absolute;
+		left: 190px;
+	}
+	.text h1{
+		font-size: 40px;
+	}
+	.section{
+		height: auto;
+	}
+	.cook{
+		height: 400px;
+		width: 90%;
+	}
+	.discription{
+		height: 300px;
+		width: 90%;
+	}
+	.discription h1{
+		font-size: 30px;
+		margin-top: -10%;
+		padding-left: 3%;
+	}
+	.discription p{
+		padding-left: 3%;
+	}
+	.discription #btn{
+		margin-top: 5%;
+		margin-left: 3%;
+	}
+	.dis{
+		height: 300px;
+		width: 90%;
+		margin-top: 170%;
+	}
+	.dis #menubtn{
+		height: ;
+		width: 40%;
+		margin-top: 5%;
+	}
+	.slider-container{
+		height: 450px;
+	}
+	.img_box img{
+		height: 250px;
+  		width: 80%;
+  		padding: 50px 0; 
+  		margin-left: 10%;
+  		margin-top: 50%;
+	}
+	.swiper-button-next{
+		position: absolute;
+		top: 3000px;
+	}
+	.swiper-button-prev{
+		position: absolute;
+		top: 3000px;
+	}
+	.deliver{
+		height: 250vh;
+		flex-wrap: wrap;
+	}
+	.about{
+		flex-basis: 90%;
+	}
+	.photo{
+		flex-basis: 90%;
+	}
+	.textarea{
+		height: auto;
+		flex-wrap: wrap;
+	}
+	.text1{
+		flex-basis: 100%;
+	}
+	.icon{
+		height: auto;
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	.ico{
+		width: 40%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	.ico i{
+		font-size: 30px;
+	}
+	.ico h5{
+		margin-top: -3%;
+	}
+	.contact{
+		height: auto;
+		flex-direction: column;
+	}
+	.con{
+		margin-top: 5%;
+		margin-bottom: 5%;
+		flex-basis: 90%;
+	}
+	footer{
+		height: 600px;
+		flex-wrap: wrap;
+	}
+	.foot{
+		flex-basis: 50%;
+	}
+}
